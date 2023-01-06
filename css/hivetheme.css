@@ -33,8 +33,17 @@ body {
     color: var(--text-color);
 }
 
+.smallp {
+    color: var(--text-color);
+}
+
 ::selection {
     background: var(--divider-color);
+}
+
+.textbox {
+    color: var(--text-color);
+    background-color: var(--divider-color);
 }
 
 .stdbutton {

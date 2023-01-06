@@ -31,8 +31,11 @@
         </section>
         <section id="accountcontent">
             <div class="centraldiv">
-                <p class="stdp">Account: N/a</p>
-                <button onclick="changeTheme()" class="stdbutton">Change Theme</button>
+                <p id="accountinfo" class="stdp">Account: Not logged in</p>
+                <label for="username" class="smallp">Username: </label><input id="username" type="text" class="textbox">
+                <br><label for="password" class="smallp">Password: </label><input id="password" type="password" class="textbox">
+                <br><button onclick="signin()" class="stdbutton">Sign In</button>
+                <br><br><button onclick="changeTheme()" class="stdbutton">Change Theme</button>
             </div>
         </section>
         <section id="technology" class="divider">

@@ -52,6 +52,11 @@ body{
     font-size: 2em;
 }
 
+.smallp {
+    font: bold;
+    font-size: 1.5em;
+}
+
 .stdbutton {
     font-family: "Roboto regular";
     font-size: 2em;
@@ -83,6 +88,13 @@ body{
 #contactcontent {
     height: 100vh;
     text-align: center;
+}
+
+.textbox {
+    border-width: 0px;
+    line-height: 1em;
+    margin: 0.25em;
+    font-size: 1.5em;
 }
 
 .imgswitch {
