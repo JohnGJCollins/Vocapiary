@@ -1,0 +1,48 @@
+:root {
+    --base-color: #fcb900;
+    --divider-color: #ff8800;
+    --text-color: black;
+}
+
+body {
+    background-color: var(--base-color);
+}
+
+#header {
+    background-color: var(--base-color);
+}
+
+#header img {
+    content: url("../img/header.png");
+}
+
+.nav {
+    background-color: var(--divider-color);
+}
+
+.nav a {
+    color: var(--text-color);
+}
+
+.divider {
+    background-color: var(--divider-color);
+    color: var(--divider-color);
+}
+
+.stdp {
+    color: var(--text-color);
+}
+
+::selection {
+    background: var(--divider-color);
+}
+
+.stdbutton {
+    color: var(--base-color);
+    background-color: var(--text-color);
+}
+
+.stdbutton:hover {
+    color: var(--text-color);
+    background-color: var(--divider-color);
+}

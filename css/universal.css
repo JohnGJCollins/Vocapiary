@@ -1,0 +1,108 @@
+:root {
+    --nav-height: 3vh;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto regular";
+}
+
+#header {
+    height: 10vh;
+    text-align: center;
+}
+
+#header img {
+    height: 90%;
+}
+
+.nav {
+    display: grid;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 0vh;
+    text-align: center;
+    line-height: var(--nav-height);
+}
+
+.nav a {
+    font-size: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    display: grid;
+    line-height: var(--nav-height);
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.stdp {
+    font: bold;
+    font-size: 2em;
+}
+
+.stdbutton {
+    font-family: "Roboto regular";
+    font-size: 2em;
+    padding: 0px;
+    border-width: 0px;
+    height: 3em;
+    width: 15em;
+}
+
+.centraldiv {
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+
+#description {
+    text-align: center;
+}
+
+#accountcontent {
+    text-align: center;
+}
+
+#technologycontent {
+    height: 100vh;
+    text-align: center;
+}
+
+#contactcontent {
+    height: 100vh;
+    text-align: center;
+}
+
+.imgswitch {
+    width: 80em;
+    aspect-ratio: 1;
+    content: url("../img/simpin.png");
+}
+
+.imgswitch:hover {
+    content: url("../img/pimpin.png");
+}
+
+@font-face {
+    font-family: "Roboto regular";
+    src: url(Roboto-Regular.ttf);
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
